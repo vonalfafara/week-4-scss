@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  background-color: #5d2a42;
+}
+header span {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff9ec;
+}
+header nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #ffdccc;
+}/*# sourceMappingURL=global.css.map */

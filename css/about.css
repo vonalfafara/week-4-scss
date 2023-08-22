@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  background-color: #5d2a42;
+}
+header span {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff9ec;
+}
+header nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #ffdccc;
+}
+
+#banner {
+  height: 400px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#banner img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 0 40%;
+     object-position: 0 40%;
+  z-index: -2;
+}
+#banner .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+#banner h1 {
+  font-size: 2rem;
+  color: #fff9ec;
+}/*# sourceMappingURL=about.css.map */
